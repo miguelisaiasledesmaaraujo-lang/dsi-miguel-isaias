@@ -80,7 +80,7 @@ String nome="isso aqui ó";
 
 10-atraves de "extends", tu pode fazer uma classe herdar atributos  metodos de outra classe, algo imporante pra funções parecidas porem objetos diferentes que rola no java
 
-# COMO FUNCIONA O JAVA??? #
+# COMO FUNCIONA O JAVA? #
 no java, o ue rola é que ele segue um modelo chamado de "write once, go anywhere", em resumo, tu escreve o codigo uma vez e ele roda em qualquer sistema sem precisar reescrever ou alterar nada, funcionando em 2 etapas
 a primeira etapa é a chamada compilação, tu escreve o codigo e salva como ".java", o compilador, que vai traduzir isso tudo pra maquina, transforma em ".class", ou bytecode tambem, e o JVM pega isso tudo, interpreta e executa o bytecode, e com isso, roda em qualquer sistema operacional ou seja lá o onde for.
 e ai tambem, o java tem tem alguns componentes principais, JDK como ja dito o kit com tudo que o java precisa pra rodar no pc, o JRE, que já vem no JDK e é necessario só pra rodar os programas java já existente, e o JVM, que executa aquele bytecode, para qualquer sistema operacional no geral.
