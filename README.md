@@ -93,7 +93,7 @@ Codigo.java
 
 
 
-# SPRINGBOOT/SPRING INITIALIZR#, o que é e como iniciar projeto em java com esse framework
+# SPRINGBOOT/SPRING INITIALIZR #, o que é e como iniciar projeto em java com esse framework
 
 aplicações, vulgo, softwares que fazem algum trabalho, os que são codado em java, precisam rodar/funcionar 
 na web, porem, codando a estrutura direto em java para configurar o sistema pra ai sim a aplicação poder rodar
