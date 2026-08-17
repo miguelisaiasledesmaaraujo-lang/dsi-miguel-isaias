@@ -91,3 +91,28 @@ Codigo.java
   depois compila javac Codigo.java e depois desse negocio vai dar resultado o Codigo.class, que tambem é o bytecode, e atraves do JVM no JDK, vai rodar em qualquer lugar
 
 
+
+
+#SPRINGBOOT/SPRING INITIALIZR#, o que é e como iniciar projeto em java com esse framework
+
+aplicações, vulgo, softwares que fazem algum trabalho, os que são codado em java, precisam rodar/funcionar 
+na web, porem, codando a estrutura direto em java para configurar o sistema pra ai sim a aplicação poder rodar
+na web é deveras longo e complicado, e o framework springboot facilita esse trabalho, onde ele bota pra 
+funcionar na web as aplicações/APIs tambem com os protocolos http/https, isso em resumo, claro.
+
+para criar um projeto ou alguma aplicação em springboot, vai em springboot initializr, ou https://start.spring.io/index.html,
+e ao chegar lá vai ter varias opções pra voce escolher.
+primeiro tu escolhe o "project" que são ferramentas pra baixar dependencias que o codigo declara que precisa
+e coloca pra trabalhar no projeto pra aplicação.
+depois escolhe a linguagem, java no caso, e escolhe o spring boot, que em resumo, seria qual versão/geração do springboot, que tu quer usar,
+os snapshots são os que estão sendo desenvolvidos/em atividade e novas, e as que não tem snapshots são 
+estaveis e antigas.
+após essas opções, escolha um nome no group, ou seja, nome pro identificador pro sistema reconhecer a quem pertence a qual grupo pertence o  arquivo, 
+e o artifact, o nome do projeto, e package, o nome pro pacote onde o arquivo java vai ficar.
+após isso escolha o packaging JAR ou WAR, como o arquivo final vai ficar empacotado, se é jar pra rodar as aplicações numa mesma pasta 
+ou war pra rodar num servidor web, escolhe em configuration, escolher qual formato será usado pra escrever as configurações da aplicação,
+e por fim a versão java que tu vai precisar usar no projeto. e tambem pode instalar algumas dependencias que tiver no springboot.
+após isso, ao clicar em generate, que vai criar um pack pra voce, depois só configurar o java no computador pra usar em alguma IDE.
+
+Via vscode, tu pode com o java já configurado, instalar a extensão Spring Initializr Java Support, ctrl+shift+p, e depois de procurar
+"spring initializr", escolha as opções que aparecem, após isso, o vscode gera o projeto e depois é só abrir
